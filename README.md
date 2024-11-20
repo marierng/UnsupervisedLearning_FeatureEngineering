@@ -35,29 +35,18 @@ This project analyzes the **OSMI Mental Health in Tech Survey 2016** to identify
 
 ### Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/marierng/UnsupervisedLearning_FeatureEngineering.git
-   cd UnsupervisedLearning_FeatureEngineering
 
-
-# Installation
-Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/marierng/UnsupervisedLearning_FeatureEngineering.git
 cd UnsupervisedLearning_FeatureEngineering
 
-Install required Python packages:
+2. Install required Python packages:
 
-bash
-Copy code
 pip install -r requirements.txt
-Usage
+
+3. Usage
 Run the mentalhealth.py script to preprocess the dataset, apply clustering, and generate visualizations:
 
-bash
-Copy code
+
 python mentalhealth.py
 Ensure the dataset (mental-heath-in-tech-2016_20161114.csv) is in the same directory as the script.
 
